@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Writing a thesis in bookdown</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nick Solomon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Writing a thesis in <code>bookdown</code>
+### Nick Solomon
+### June 3, 2017
+
+---
+
+
+### Why use `bookdown`?
+--
+
+- Reproducibility
+--
+
+- HTML
+--
+
+- I 💖 R
+---
+
+## How?
+--
+
+- With great difficulty!
+--
+
+- `bookdown` is great!
+--
+
+- But LaTeX templates?
+--
+
+- 😷
+--
+
+- Enter `thesisdown`
+---
+
+## `thesisdown`
+--
+
+- Thanks Chester!
+--
+
+- A wrapper around `bookdown` with Reed's template built in!
+--
+
+- Almost perfect
+---
+
+class: center, middle
+
+## [Please try `thesisdown`!](https://github.com/ismayc/thesisdown)
+---
+
+class: center, middle
+
+## [Please read my thesis!](http://nicksolomon.me/thesis)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
