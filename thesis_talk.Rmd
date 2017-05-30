@@ -11,10 +11,9 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: center, middle
 
-Why?
----
+### Why use `bookdown`?
+--
 
 - Reproducibility
 --
@@ -23,4 +22,45 @@ Why?
 --
 
 - I 💖 R
+---
+
+## How?
+--
+
+- With great difficulty!
+--
+
+- `bookdown` is great!
+--
+
+- But LaTeX templates?
+--
+
+- 😷
+--
+
+- Enter `thesisdown`
+---
+
+## `thesisdown`
+--
+
+- Thanks Chester!
+--
+
+- A wrapper around `bookdown` with Reed's template built in!
+--
+
+- Almost perfect
+---
+
+class: center, middle
+
+## [Please try `thesisdown`!](https://github.com/ismayc/thesisdown)
+---
+
+class: center, middle
+
+## [Please read my thesis!](http://nicksolomon.me/thesis)
+
 
