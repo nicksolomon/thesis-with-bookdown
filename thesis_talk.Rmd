@@ -1,0 +1,26 @@
+---
+title: "Writing a thesis in `bookdown`"
+author: "Nick Solomon"
+date: "June 3, 2017"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["style.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+
+Why?
+---
+
+- Reproducibility
+--
+
+- HTML
+--
+
+- I 💖 R
+
