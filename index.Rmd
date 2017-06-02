@@ -1,7 +1,11 @@
 ---
 title: "Writing a thesis in `bookdown`"
-author: "Nick Solomon"
-date: "June 3, 2017"
+author: |
+  Nick Solomon
+  
+  DataCamp
+  
+  Reed College
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,12 +15,19 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+layout: true
+{{content}}
+.footnote[
+@NickSolomon10<br>
+[source](http://nicksolomon.me/thesis-with-bookdown/index.Rmd)<br>
+http://bit.ly/2skGvpj
+]
+---
 
 ### Why use `bookdown`?
 --
 
 - Reproducibility
-
 ???
 - Of course reproducibility
   - `bookdown` means that anyone can re-run my code and replicate my results.
@@ -24,7 +35,6 @@ output:
 --
 
 - HTML
-
 ???
 - LaTeX only produces a PDF, but with `bookdown` it's easy to also export to the gitbook format
   - Increases accessibility
@@ -32,8 +42,7 @@ output:
   - Removes barriers to access
 --
 
-- I 💖 R
-
+- I .big[💖] R
 ???
 - I wanted to see if I could
   - I like using the R ecosystem in new ways and pushing the limits of what's possible
@@ -43,27 +52,23 @@ output:
 --
 
 - With great difficulty!
-
 ???
 - This is a joke
 --
 
 - `bookdown` is great!
-
 ???
 - Using `bookdown` is easy
   - Just write and build and the book is made in any medium you want
 --
 
 - But LaTeX templates?
-
 ???
 - But the (PDF) format is based on the default `pandoc` LaTeX template
   - This doesn't conform to strict formatting guidelines
 --
 
-- 😷
-
+- .big[😷]
 ???
 - LaTeX is powerful but hard
   - Getting LaTeX to play with others is even harder
@@ -73,7 +78,6 @@ output:
 --
 
 - Enter `thesisdown`
-
 ???
 - A solution???
 ---
@@ -82,18 +86,15 @@ output:
 --
 
 - Thanks Chester!
-  - 
 --
 
 - A wrapper around `bookdown` with Reed's template built in!
-
 ???
 - The `thesisdown` package provides a wrapper and a template
   - Makes the complicated university format the default format
 --
 
 - Almost perfect
-
 ???
 - It's new, so there were some bumps in the road
   - Equations
@@ -106,19 +107,17 @@ output:
 
 class: center, middle
 
-## [Please try `thesisdown`!](https://github.com/ismayc/thesisdown)
-
+## Please try [`thesisdown`](https://github.com/ismayc/thesisdown)!
 ???
 - But we're making it better!
 - Use it!
 - Open issues!
+- Make pull requests!
 - Request templates!
 ---
 
 class: center, middle
 
-## [Please read my thesis!](http://nicksolomon.me/thesis)
-
+## Please read my [thesis](http://nicksolomon.me/thesis)!
 ???
 - Show off my thesis if there's time
-

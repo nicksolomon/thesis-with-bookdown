@@ -3,7 +3,6 @@
   <head>
     <title>Writing a thesis in bookdown</title>
     <meta charset="utf-8">
-    <meta name="author" content="Nick Solomon" />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
@@ -11,17 +10,25 @@
 class: center, middle, inverse, title-slide
 
 # Writing a thesis in <code>bookdown</code>
-### Nick Solomon
-### June 3, 2017
+### <p>Nick Solomon</p>
+<p>DataCamp</p>
+<p>Reed College</p>
 
 ---
 
+layout: true
+{{content}}
+.footnote[
+@NickSolomon10&lt;br&gt;
+[source](http://nicksolomon.me/thesis-with-bookdown/index.Rmd)&lt;br&gt;
+http://bit.ly/2skGvpj
+]
+---
 
 ### Why use `bookdown`?
 --
 
 - Reproducibility
-
 ???
 - Of course reproducibility
   - `bookdown` means that anyone can re-run my code and replicate my results.
@@ -29,7 +36,6 @@ class: center, middle, inverse, title-slide
 --
 
 - HTML
-
 ???
 - LaTeX only produces a PDF, but with `bookdown` it's easy to also export to the gitbook format
   - Increases accessibility
@@ -37,8 +43,7 @@ class: center, middle, inverse, title-slide
   - Removes barriers to access
 --
 
-- I 💖 R
-
+- I .big[💖] R
 ???
 - I wanted to see if I could
   - I like using the R ecosystem in new ways and pushing the limits of what's possible
@@ -48,27 +53,23 @@ class: center, middle, inverse, title-slide
 --
 
 - With great difficulty!
-
 ???
 - This is a joke
 --
 
 - `bookdown` is great!
-
 ???
 - Using `bookdown` is easy
   - Just write and build and the book is made in any medium you want
 --
 
 - But LaTeX templates?
-
 ???
 - But the (PDF) format is based on the default `pandoc` LaTeX template
   - This doesn't conform to strict formatting guidelines
 --
 
-- 😷
-
+- .big[😷]
 ???
 - LaTeX is powerful but hard
   - Getting LaTeX to play with others is even harder
@@ -78,7 +79,6 @@ class: center, middle, inverse, title-slide
 --
 
 - Enter `thesisdown`
-
 ???
 - A solution???
 ---
@@ -87,18 +87,15 @@ class: center, middle, inverse, title-slide
 --
 
 - Thanks Chester!
-  - 
 --
 
 - A wrapper around `bookdown` with Reed's template built in!
-
 ???
 - The `thesisdown` package provides a wrapper and a template
   - Makes the complicated university format the default format
 --
 
 - Almost perfect
-
 ???
 - It's new, so there were some bumps in the road
   - Equations
@@ -111,19 +108,18 @@ class: center, middle, inverse, title-slide
 
 class: center, middle
 
-## [Please try `thesisdown`!](https://github.com/ismayc/thesisdown)
-
+## Please try [`thesisdown`](https://github.com/ismayc/thesisdown)!
 ???
 - But we're making it better!
 - Use it!
 - Open issues!
+- Make pull requests!
 - Request templates!
 ---
 
 class: center, middle
 
-## [Please read my thesis!](http://nicksolomon.me/thesis)
-
+## Please read my [thesis](http://nicksolomon.me/thesis)!
 ???
 - Show off my thesis if there's time
     </textarea>
