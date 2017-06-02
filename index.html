@@ -21,52 +21,111 @@ class: center, middle, inverse, title-slide
 --
 
 - Reproducibility
+
+???
+- Of course reproducibility
+  - `bookdown` means that anyone can re-run my code and replicate my results.
+  - For my thesis, this is nice, but for other subjects it's *essential*
 --
 
 - HTML
+
+???
+- LaTeX only produces a PDF, but with `bookdown` it's easy to also export to the gitbook format
+  - Increases accessibility
+  - Improves readability on devices
+  - Removes barriers to access
 --
 
 - I 💖 R
+
+???
+- I wanted to see if I could
+  - I like using the R ecosystem in new ways and pushing the limits of what's possible
 ---
 
 ## How?
 --
 
 - With great difficulty!
+
+???
+- This is a joke
 --
 
 - `bookdown` is great!
+
+???
+- Using `bookdown` is easy
+  - Just write and build and the book is made in any medium you want
 --
 
 - But LaTeX templates?
+
+???
+- But the (PDF) format is based on the default `pandoc` LaTeX template
+  - This doesn't conform to strict formatting guidelines
 --
 
 - 😷
+
+???
+- LaTeX is powerful but hard
+  - Getting LaTeX to play with others is even harder
+  - There are multiple layers here:
+  - `bookdown` &gt; `knitr` &gt; `pandoc` &gt; `pdflatex`
+  - Things can go wrong anywhere in the process
 --
 
 - Enter `thesisdown`
+
+???
+- A solution???
 ---
 
 ## `thesisdown`
 --
 
 - Thanks Chester!
+  - 
 --
 
 - A wrapper around `bookdown` with Reed's template built in!
+
+???
+- The `thesisdown` package provides a wrapper and a template
+  - Makes the complicated university format the default format
 --
 
 - Almost perfect
+
+???
+- It's new, so there were some bumps in the road
+  - Equations
+    - pandoc
+  - Headings
+    - Unnumbered chapters
+  - Margins
+    - All the different layers means it's possible to do something twice
 ---
 
 class: center, middle
 
 ## [Please try `thesisdown`!](https://github.com/ismayc/thesisdown)
+
+???
+- But we're making it better!
+- Use it!
+- Open issues!
+- Request templates!
 ---
 
 class: center, middle
 
 ## [Please read my thesis!](http://nicksolomon.me/thesis)
+
+???
+- Show off my thesis if there's time
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
